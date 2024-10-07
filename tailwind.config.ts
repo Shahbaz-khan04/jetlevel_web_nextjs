@@ -9,10 +9,12 @@ const config: Config = {
       backgroundImage: {
         'hero-background': "url('https://jetlevel.com/wp-content/uploads/2024/02/Private-jet-interior.png')",
       },
-
       fontFamily: {
-        'callibari' : "Callibari, sans-serif"
-      }
+        playfair: ['var(--font-playfair-display)', 'serif'],
+        lato: ['var(--font-lato)', 'sans-serif'],
+        libre: ['var(--font-libre-baskerville)', 'serif'],
+      },
+      
     },
   },
   plugins: [],
