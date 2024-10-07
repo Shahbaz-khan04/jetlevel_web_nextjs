@@ -1,6 +1,6 @@
 import { FaPhone } from "react-icons/fa6";
 import { FaChevronDown } from "react-icons/fa6";
-import navbarDropdown from "@/components/navbarDropdown";
+import NavbarDropdown from "@/components/navbarDropdown";
 
 const Nav = () => { 
   return (
@@ -14,7 +14,7 @@ const Nav = () => {
         </div>
 
         <div id="dropdown-nav" className="lg:hidden">
-          <navbarDropdown />
+          <NavbarDropdown />
         </div>
 
         <div id="nav-options" className="hidden lg:flex items-center md:pr-0 pr-4">

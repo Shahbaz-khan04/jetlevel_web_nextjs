@@ -2,7 +2,7 @@ import React from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 
 
-const navbarDropdown = () => {
+function NavbarDropdown()  {
     return (
         
         <div id="hamburgerIcon" className="">
@@ -11,4 +11,4 @@ const navbarDropdown = () => {
     );
 };
 
-export default navbarDropdown;
+export default NavbarDropdown;
